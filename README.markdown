@@ -6,7 +6,7 @@
 * [Bundler](http://gembundler.com/)
 * [Heroku Toolbelt](https://toolbelt.heroku.com)
 
-We'll use SQLite3 in development.
+RTH's Note: During the workshop, we used SQLite3 in development. Future work will be done in Postgres only.
 
 ## Setup
 
