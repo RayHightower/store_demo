@@ -13,8 +13,8 @@ RTH's Note: During the workshop, we used SQLite3 in development. Future work wil
 Clone the repository, then run:
 
 ```bash
-bundle install
-cp db/monster_demo db/monster_development
+bundle install # to install gems listed in Gemfile
+cp db/monster_demo db/monster_development # Only needed if running SQLite. 
 bundle exec rake db:test:prepare
 bundle exec rails s
 ```
