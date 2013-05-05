@@ -14,6 +14,7 @@ gem 'newrelic_rpm'
 gem 'will_paginate'
 gem 'ruby-progressbar'
 gem 'puma'
+gem 'pg'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
@@ -21,13 +22,8 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-group :production do
-  gem 'pg'
-end
-
 group :development, :test do
   gem 'rspec-rails'
-  gem 'sqlite3'
   gem 'factory_girl_rails'
   gem 'cane'
   gem 'reek'
